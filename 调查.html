@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>问卷调查</title>
+</head>
+<body>
+    <h1 align="center">原神问卷调查</h1>
+    <p>&emsp;&emsp;《原神》是由米哈游自主研发的一款全新开放世界冒险游戏。游戏发生在一个被称作提瓦特的幻想世界， 在这里，被神选中的人将被授予神之眼，引导元素之力。你将扮演一位名为旅行者的神秘角色。</p>
+    <from action="http://raink.net/api/html/save" target="_self">
+      <fieldset>
+        <legend>基本信息</legend>
+        <h4>1.您的姓名</h4>
+        <input type="text">
+        <h4>2.您的手机号</h4>
+        <input type="text" value="137****2473" readonly>
+        <h4>3.您的性别</h4>
+        <input type="radio" name="gender">男
+        <input type="radio" name="gender">女
+        <input type="radio" name="gender" disabled>保密
+        <h4>4.家庭地址</h4>
+        <select name="">
+          <option value="">哪一个省</option>
+        </select>
+        <select name="">
+          <option value="">市</option>
+        </select>
+        <select name="">
+          <option value="">县</option>
+        </select>
+        <select name="">
+          <option value="">乡</option>
+        </select>
+        <br><br>
+        <textarea name="" cols="65" rows="4" placeholder="请输入详细地址"></textarea>
+        <h4>您最喜欢的角色</h4>
+        <input type="checkbox">神里凌华<br>
+        <input type="checkbox">胡桃<br>
+        <input type="checkbox">香凌<br>
+        <input type="checkbox">刻晴<br>
+        <input type="checkbox">七七<br>
+        <input type="checkbox">班尼特<br>
+        <h4>6.您目前的世界等级是</h4>
+        <input type="radio">世界5
+        <input type="radio">世界6
+        <input type="radio">世界7
+        <input type="radio">世界8
+      </fieldset>
+    </from>
+      <fieldset>
+        <legend>保密信息</legend>
+        <h4>1.身份证信息</h4>
+        正面:<input type="file"><br>
+        反面:<input type="file"><br>
+        <h4>2.学历信息(最高)</h4>
+        <select name="" >
+          <option value="">研究生</option>
+          <option value="">本科</option>
+          <option value="">大专</option>
+          <option value="">高中</option>
+          <option value="">高中以下</option>
+        </select>
+        <h4>3.是否参加工作</h4>
+        <input type="radio" name="ismilitary" id="yes">
+          <label for="yes">是</label>
+        <input type="radio" name="ismilitary" id="no">
+        <label for="no">否</label>
+        <h4>4.个人意见</h4>
+        <textarea name=" " id="" cols="60" rows="5"></textarea>
+      </fieldset>
+      <input type="submit" value="上传信息">
+      <input type="reset" value="重置信息">
+</body>
+</html>
